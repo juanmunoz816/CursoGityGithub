@@ -6,6 +6,17 @@ body{
     padding: 0;
 }
 
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 0 2em;
+}
+
 .container{
     color:black;
     border: 1px solid rebeccapurple;
@@ -13,3 +24,4 @@ body{
     width: 70%;
     margin: 0 auto;
 }
+
