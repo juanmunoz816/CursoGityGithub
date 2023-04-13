@@ -1,0 +1,11 @@
+introduccion a la terminal comandos basicos 
+
+pwd : me indica donde estoy actualmente 
+cd : Change Direction me dirige a una nueva ruta 
+cd .. : me devuelve a la direción anterior 
+cd . : carpeta actual
+ls : los archivos que estan en la dirección 
+mkdir : make directory o crear carpeta 
+touch : para crear archivos vacios 
+
+
