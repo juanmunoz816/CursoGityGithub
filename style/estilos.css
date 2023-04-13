@@ -21,12 +21,15 @@ li{
 }
 
 li:hover{
-    background-color: rgba(255, 20, 145, 0.384);
+    background-color: rgba(13, 141, 51, 0.384);
 }
 
 .container{
-    color:black;
-    border: 1px solid rebeccapurple;
+    text-align: left;
+    line-height: 150%;
+    padding: 2em;
+    color:greenyellow;
+    border: 2px solid black;
     border-radius: 16px;
     width: 70%;
     margin: 0 auto;
