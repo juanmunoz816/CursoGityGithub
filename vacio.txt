@@ -5,7 +5,36 @@ cd : Change Direction me dirige a una nueva ruta
 cd .. : me devuelve a la direción anterior 
 cd . : carpeta actual
 ls : los archivos que estan en la dirección 
+ls -al : ver los archivos y los archivos ocultos en una lista
 mkdir : make directory o crear carpeta 
 touch : para crear archivos vacios 
+rm : remuve o eliminar archivos
+cat: mostrar el contenido de una archvio
+history: para ver los historiales de comando
+!numero : repetir comando en history
+--help : para saber para que sirven un comando
 
+para crear el repositorio 
+git init : es para iniciar el repositorio en la carpeta 
+git status : donde estoy y como estan los archivos  
+git add : agrega los archivos nuevos que no se an agragado
+git rm (el archivo) :saca a algun archivo del repositorio
+git rm --cached (el archivo) :saca el archivo de la memoria cache o del add que no se a subido
+git commit -m "mensaje" : para mandar el add al commid
+git config : los datos de las configuraciones del git
+git show (el archivo) : mustra los cambios de un archivo
+git diff (llave del commit) : me deja ver las diferencias entre versiones
+git diff : me muestra las diferencias entre lo que tengo en logal y en el add
+git log --stat : para ver especificamente que ah cambiado 
+
+git branch (nombre de la rama) : creo una nueva rama
+git push : envio todo al servidor remoto
+git fetch : llamar una actualización 
+git merge (rama a unir) : unificar todo 
+git pull : fetch and merge
+
+
+
+
+esc shif zz : asi se guarda en vim
 
