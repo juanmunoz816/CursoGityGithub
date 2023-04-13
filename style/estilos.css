@@ -6,6 +6,23 @@ body{
     padding: 0;
 }
 
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 1em 2em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgba(255, 20, 145, 0.384);
+}
+
 .container{
     color:black;
     border: 1px solid rebeccapurple;
@@ -13,3 +30,4 @@ body{
     width: 70%;
     margin: 0 auto;
 }
+
