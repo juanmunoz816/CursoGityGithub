@@ -1,6 +1,10 @@
 body{
+<<<<<<< HEAD
     background-color: dimgrey;
     color: greenyellow;
+=======
+    color: red;
+>>>>>>> cabecera
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
