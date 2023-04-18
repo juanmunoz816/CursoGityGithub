@@ -28,10 +28,17 @@ git diff : me muestra las diferencias entre lo que tengo en logal y en el add
 git log --stat : para ver especificamente que ah cambiado 
 
 git branch (nombre de la rama) : creo una nueva rama
+git branch -m main: para actualizar la rama como master
 git push : envio todo al servidor remoto
+git push origin main: 
 git fetch : llamar una actualización 
 git merge (rama a unir) : unificar todo 
 git pull : fetch and merge
+git pull origin main --allow-unrelated-histories : para mesclar el repositorio que baje y el que tengo en local
+
+git remote add origin (url de github)
+git remote : sale origin 
+git remote -v : sale la dirección del origen
 
 
 
