@@ -28,7 +28,8 @@ git diff : me muestra las diferencias entre lo que tengo en logal y en el add
 git log --stat : para ver especificamente que ah cambiado
 git log --all -- graph : para ver el dibujo las rams
 git log --all -- graph --decorate --oneline : ver las gráficas más cool
- 
+
+alias nombre ="comando" 
 
 git branch (nombre de la rama) : creo una nueva rama
 git branch -m main: para actualizar la rama como master
