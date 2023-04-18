@@ -25,7 +25,10 @@ git config : los datos de las configuraciones del git
 git show (el archivo) : mustra los cambios de un archivo
 git diff (llave del commit) : me deja ver las diferencias entre versiones
 git diff : me muestra las diferencias entre lo que tengo en logal y en el add
-git log --stat : para ver especificamente que ah cambiado 
+git log --stat : para ver especificamente que ah cambiado
+git log --all -- graph : para ver el dibujo las rams
+git log --all -- graph --decorate --oneline : ver las gráficas más cool
+ 
 
 git branch (nombre de la rama) : creo una nueva rama
 git branch -m main: para actualizar la rama como master
@@ -35,6 +38,7 @@ git fetch : llamar una actualización
 git merge (rama a unir) : unificar todo 
 git pull : fetch and merge
 git pull origin main --allow-unrelated-histories : para mesclar el repositorio que baje y el que tengo en local
+
 
 git remote add origin (url de github)
 git remote : sale origin 
