@@ -26,13 +26,21 @@ git show (el archivo) : mustra los cambios de un archivo
 git diff (llave del commit) : me deja ver las diferencias entre versiones
 git diff : me muestra las diferencias entre lo que tengo en logal y en el add
 git log --stat : para ver especificamente que ah cambiado
-git log --all -- graph : para ver el dibujo las rams
-git log --all -- graph --decorate --oneline : ver las gráficas más cool
+git log --all --graph : para ver el dibujo las rams
+git log --all --graph --decorate --oneline : ver las gráficas más cool
+
+git tag -a (nombre del tag) -m "mensaje" numero de referencia : para crear tags o versiones
+git push origin --tags
+git tag -d (nombre del tag)
+$ git push origin :refs/tags/d(nombre del tag) : borar el tag de git hub
+
+
 
 alias nombre ="comando" 
 
 git branch (nombre de la rama) : creo una nueva rama
 git branch -m main: para actualizar la rama como master
+git show-brench --all : para ver en tetalle todas las ramas que existen
 git push : envio todo al servidor remoto
 git push origin main: 
 git fetch : llamar una actualización 
@@ -44,6 +52,8 @@ git pull origin main --allow-unrelated-histories : para mesclar el repositorio q
 git remote add origin (url de github)
 git remote : sale origin 
 git remote -v : sale la dirección del origen
+
+gitk : versión visual de git
 
 
 
