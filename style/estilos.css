@@ -20,6 +20,17 @@ li{
     cursor: pointer;
 }
 
+.logo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
 li:hover{
     background-color: rgba(13, 141, 51, 0.384);
 }
