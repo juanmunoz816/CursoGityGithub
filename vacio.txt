@@ -47,6 +47,7 @@ git fetch : llamar una actualización
 git merge (rama a unir) : unificar todo 
 git pull : fetch and merge
 git pull origin main --allow-unrelated-histories : para mesclar el repositorio que baje y el que tengo en local
+git clone : clonar un repositorio con url 
 
 
 git remote add origin (url de github)
