@@ -46,3 +46,12 @@ li:hover{
     margin: 0 auto;
 }
 
+.container img{
+    width: 50%;
+    border-radius: 6px;
+}
+
+.parrafoImg{
+ text-align: center;
+}
+
