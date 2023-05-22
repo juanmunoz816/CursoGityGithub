@@ -56,7 +56,7 @@ git remote -v : sale la dirección del origen
 
 gitk : versión visual de git
 
-
+git rebase: para unir ramas pero sin borrar el historial
 
 
 esc shif zz : asi se guarda en vim
