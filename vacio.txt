@@ -40,6 +40,9 @@ alias nombre ="comando"
 
 git branch (nombre de la rama) : creo una nueva rama
 git branch -m main: para actualizar la rama como master
+git branch -d (nombre de la rama): borra la rama
+git branch -r :las ramas remotas
+git branch -a :todas las rams
 git show-brench --all : para ver en tetalle todas las ramas que existen
 git push : envio todo al servidor remoto
 git push origin main: 
@@ -58,6 +61,42 @@ gitk : versión visual de git
 
 git rebase: para unir ramas pero sin borrar el historial
 
+git stash: guardar temporalmente
+git stash pop: para acceder a los que "guarde"
+git stash branch (nombre rama): para pasar lo que tengo a una nueva rama
+git stash drop: borra el stash
+
+git clean : borra lo que no se a agregado
+git clean --dry-run: Simular todo lo que voy a borrar
+git clean -f: borrar 
+
+git cherry-pick (numero del commit): copia un commit de otra rama unicamente
+
+git reflog: muestra todo (luego se hace git reset)
+git reset --hard
+
+git commit --amend :Reparar el commit anterior
+
+git grep: buscar algo en especifico
+git grep color -->use la palabra color
+git grep la --> donde use la palabra la
+git grep -n color–> en que lineas use la palabra color
+git grep -n platzi --> en que lineas use la palabra platzi
+git grep -c la --> cuantas veces use la palabra la
+git grep -c paltzi --> cuantas veces use la palabra platzi
+git grep -c “<p>”–> cuantas veces use la etiqueta <p>
+
+git log-S “cabecera” --> cuantas veces use la palabra cabecera en
+todos los commits.
+
+grep–> para los archivos
+log --> para los commits.
+
+git config --global alias.(nombre de alias) "el comando"
+git blame -c: quien hizo un cambio
+gir blame (archivo) -L23,54 (que lineas se modificaron y quien no)
+
+git (comando) --help: como funciona el comando
 
 esc shif zz : asi se guarda en vim
 
